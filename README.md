@@ -79,7 +79,7 @@ spring.jpa.hibernate.ddl-auto=update
 The overall architecture follows microservices principles, where each service is an independent, deployable unit.
 Services communicate with each other over HTTP protocols, and OPENFEIGN is used for service-to-service communication.
 Eureka enables service discovery and registration.
-The H2 in-memory database is used for simplicity in data storage for the SERVICE-CLIENT and SERVICE-VOITURE microservices.
+MySQL database is used for simplicity in data storage for the SERVICE-CLIENT and SERVICE-VOITURE microservices.
 The Gateway service handles routing and acts as the entry point for external clients.
 
 ## V. Running the Application
