@@ -49,7 +49,7 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 And add the proper classes to fetch data from the database.
 ![Architecture](/demonstration/4.png)
-![Architecture](/demonstration/7.png)
+![Architecture](/demonstration/8.png)
 ## III. Creating the car (Voiture) Service
 
 To create a gateway service, follow these steps:
@@ -71,7 +71,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 spring.jpa.hibernate.ddl-auto=update
 ```
 ![Architecture](/demonstration/5.png)
-![Architecture](/demonstration/8.png)
+![Architecture](/demonstration/9.png)
+![Architecture](/demonstration/6.png)
 ## IV. Application Architecture:
 ![Architecture](1.png)
 
