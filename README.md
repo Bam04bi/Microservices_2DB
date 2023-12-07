@@ -60,7 +60,7 @@ Add the following dependencies: Spring Cloud Routing Gateway, Spring Boot Actuat
 
 Configure the application.properties file: 
 ```
-server.port=8089
+server.port=8085
 spring.application.name=voitures
 
 spring.datasource.url=jdbc:mysql://localhost:3306/client
